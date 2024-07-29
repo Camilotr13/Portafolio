@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--Estilo-->
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Css/scroll.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+    
+        <!--Script JS-->
+        <script src="../js/menu.js" defer></script>
+    <title>Portafolio - Juan Torres</title>
+</head>
+<body>
+
+    <!--Layout principal-->
+    <div class="layout">
+
+        <!--Barra lateral (Info Usuario)-->
+        <aside class="layout__aside">
+           
+            <section class="aside__user-info">
+
+                <!--Info General usuario-->
+                <div class="user-info__general-info">
+                    <div class="user-info__container-image">
+                        <img src="img/MiFoto.jpg.jpg" class="user-info__image" alt="Foto de pefil del usuario"/>
+                    </div>
+                    <h2 class="user-info__name">Juan Torres</h2>
+                    <h4 class="user-info__job">Desarrollador Frontend</h4>
+                </div>
+
+                <!--Menu de navegacion-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span> 
+                            </a>
+                        </li>
+
+                        
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span> 
+                            </a>
+                        </li>
+
+                        
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span> 
+                            </a>
+                        </li>
+
+                        
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span> 
+                            </a>
+                        </li>
+
+                        
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span> 
+                            </a>
+                        </li>
+                        
+                        
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span> 
+                            </a>
+                        </li>
+                    </ul>
+
+
+                </nav>
+
+                <!--Link a redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+
+                <!--btn  del curriculum-->
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Descargar CV</a>
+                </div>
+
+                <!--Pie de pag-->
+                <Footer class="user-info__footer">
+                    &copy; 2024 Juan Torres WEB
+                </Footer>
+            </section>
+
+        </aside>
+
+         <!--MENU DE HAMBURGUESA-->
+
+         <div class="layout__menu-toggle">
+            <i class="menu-toggle__icon fa-solid fa-bars"></i>
+            <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido Principal-->
+        <main class="layout__content">
+            <section class="content__page content__about">
+                <header class="about__header">
+                    <h1 class="about__title">Sobre <span class="title__color">Mi</span></h1>
+                </header>
+                <section class="about__personal-info">
+                    <article class="personal-info__bio">
+                        <p class="personal-info__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quia impedit nesciunt architecto sapiente iure natus cum eaque, sed facilis animi eos quod soluta fuga ea incidunt quisquam dolore necessitatibus.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quia impedit nesciunt architecto sapiente iure natus cum eaque, sed facilis animi eos quod soluta fuga ea incidunt quisquam dolore necessitatibus.
+                        </p>
+                    </article>
+                    <div class="personal-info__data">
+                        <ul class="personal-info__list">
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Edad</span>
+                                <span class="personal-info__value">22</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Pais</span>
+                                <span class="personal-info__value">Colombia</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Ciudad</span>
+                                <span class="personal-info__value">Medellin</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Correo</span>
+                                <span class="personal-info__value">juanctr2002@gmail.com</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Numero de contacto</span>
+                                <span class="personal-info__value">+57 3003843827</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="about__services">
+                    <header class="services__header">
+                        <h2 class="reviews__title">
+                            Lo que <span class="title__color">hago</span>
+                        </h2>
+                    </header>
+
+                    <div class="services__container">
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-code"></i>
+                            </div>
+                            <div class="service__content">
+                                <h3 class="service__title"></h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, impedit architecto beatae non, repudiandae recusandae saepe quos</p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-chalkboard-teacher"></i>
+                            </div>
+                            <div class="service__content">
+                                <h3 class="service__title">Formacion</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, impedit architecto beatae non, repudiandae recusandae saepe quos</p>
+                            </div>
+                        </article>
+                         
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-computer"></i>
+                            </div>
+                            <div class="service__content">
+                                <h3 class="service__title">Desarrollo web</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, impedit architecto beatae non, repudiandae recusandae saepe quos</p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-terminal"></i>
+                            </div>
+                            <div class="service__content">
+                                <h3 class="service__title">Administracion</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, impedit architecto beatae non, repudiandae recusandae saepe quos</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="about__reviews">
+                    <header class="reviews__header">
+                        <h2 class="reviews__title">Reseñas</h2>
+                    </header>
+                    <div class="reviews__container">
+                        <article class="reviews__review">
+                            <div class="review__image-container">
+                                <img src="img/testimonio1.jpg" class="review__image" alt="cara de un cliente">
+                            </div>
+                            <div class="review__description">
+                                <p class="review__text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam porro provident repudiandae blanditiis commodi dignissimos, sequi sapiente? Alias mollitia.
+                                </p>
+                            </div>
+                            <div class="review__author">
+                                <div class="review__author-info">
+                                    <h4 class="review__name">Ana Lopez</h4>
+                                    <h5 class="review__company">Developers S.A</h5>
+                                </div>
+                                <div class="review__author-icon">
+                                    <i class="review__icon fa solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="reviews__review">
+                            <div class="review__image-container">
+                                <img src="img/testimonio2.jpg" class="review__image" alt="cara de un cliente">
+                            </div>
+                            <div class="review__description">
+                                <p class="review__text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam porro provident repudiandae blanditiis commodi dignissimos, sequi sapiente? Alias mollitia.
+                                </p>
+                            </div>
+                            <div class="review__author">
+                                <div class="review__author-info">
+                                    <h4 class="review__name">Ruben Matinez</h4>
+                                    <h5 class="review__company">Full S.A</h5>
+                                </div>
+                                <div class="review__author-icon">
+                                    <i class="review__icon fa solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="about__clients">
+                    <header class="clients__header">
+                        <h2 class="clients__title">Clientes</h2>
+                    </header>
+                    <div class="clients__container">
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="img/cliente-1.png" class="clients__image" alt="Logo cliente">
+                            </a>
+                        </article>
+
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="img/cliente-2.png" class="clients__image" alt="Logo cliente">
+                            </a>
+                        </article>
+
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="img/cliente-3.png" class="clients__image" alt="Logo cliente">
+                            </a>
+                        </article>
+
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="img/cliente-4.png" class="clients__image" alt="Logo cliente">
+                            </a>
+                        </article>
+
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="img/cliente-4.png" class="clients__image" alt="Logo cliente">
+                            </a>
+                        </article>
+
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="img/cliente-5.png" class="clients__image" alt="Logo cliente">
+                            </a>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="about__prices">
+                    <header class="prices__header">
+                        <h2 class="prices__title">Precios</h2>
+                    </header>
+                    <div class="prices__container">
+                        <article class="prices__box">
+                            <div class="prices__subtitle">
+                                <span class="prices__text">Normal</span>
+                            </div>
+                            <div class="prices__price">
+                                <span class="prices__number">20$</span>
+                                <small class="price__advice">Al mes</small>
+                            </div>
+                            <div class="prices__buy">
+                                <a href="#" class="prices__btn">Prueba Gratis</a>
+                            </div>
+                            <div class="prices__reward">
+                                Un curso de desarrollo web
+                            </div>
+                            <div class="prices__reward">
+                                Soporte de preguntas y dudas
+                            </div>
+                            <div class="prices__reward">
+                                Certificado de finalizacion
+                            </div>
+                            
+                        
+                        </article>
+                        
+                        <article class="prices__box">
+                            <div class="prices__subtitle">
+                                <span class="prices__text">Premium</span>
+                            </div>
+                            <div class="prices__price">
+                                <span class="prices__number">50$</span>
+                                <small class="price__advice">Al mes</small>
+                            </div>
+                            <div class="prices__buy">
+                                <a href="#" class="prices__btn">Prueba Gratis</a>
+                            </div>
+                            <div class="prices__reward">
+                                5 cursos de desarrollo web
+                            </div>
+                            <div class="prices__reward">
+                                Soporte de preguntas y dudas prioritario
+                            </div>
+                            <div class="prices__reward">
+                                Certificado de finalizacion
+                            </div>
+                            
+                        
+                        </article>
+                    </div>
+                </section>
+
+                <section class="about__extra">
+                    <header class="extra__header">
+                        <h2 class="extra__title">Informacion <span class="title__color">Extra</span></h2>
+                    </header>
+                    <div class="extra__container">
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-heart"></i>
+                            <h4 class="extra__subtitle">Alumnos Contentos</h4>
+                            <span class="extra__quantity">375.000</span>
+                        </article>
+
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-clock"></i>
+                            <h4 class="extra__subtitle">Horas de contenido</h4>
+                            <span class="extra__quantity">800</span>
+                        </article>
+
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-star"></i>
+                            <h4 class="extra__subtitle">Puntuacion</h4>
+                            <span class="extra__quantity">9.8</span>
+                        </article>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
