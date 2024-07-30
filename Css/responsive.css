@@ -196,7 +196,7 @@
     .layout__aside {
         width: 0;
     }
-    
+
     .layout__aside--visible {
         width: 100%;
         margin-right: 0;
@@ -207,8 +207,6 @@
         margin-right: -100%;
         opacity: 0;
     }
-
-  
 
     .reviews__container {
         flex-direction: column;
@@ -244,6 +242,12 @@
 
     .articles__article {
         flex-basis: 100%;
+    }
+
+    .content__page {
+        border-radius: 0;
+        height: 100vh;
+        padding: 40px;
     }
 }
 
@@ -294,6 +298,7 @@
 
     .certificate__content {
         padding: 0.8rem 1.5rem;
+        font-size: 1rem;
       }
 
     .page__name {
